@@ -39,7 +39,7 @@ const ERPInfo = () => {
       <Grid container justifyContent="center">
         <Grid item xs={12} className="erp-heading-container">
           <span className="erpheading">
-            #1 ERP Solutions Provider for{" "}
+            #1 ERP for for for Solutions Provider for{" "}
             <span className="erptitle">Manufacturers</span>
           </span>
         </Grid>
