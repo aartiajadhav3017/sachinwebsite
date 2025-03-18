@@ -1,0 +1,162 @@
+.indu-container {
+  background-color: rgb(246, 246, 246);
+  /* border: 1px solid black; */
+  justify-content: center;
+  text-align: center;
+  margin-top: 4%;
+  font-size: 19px;
+  padding-top: 2%;
+  padding-bottom: 50px;
+}
+
+.erptitle {
+  color: #e7880c;
+}
+.integrate-modules-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.induinfo {
+  border: 1px solid rgb(213, 213, 213);
+  background-color: rgb(245, 245, 245);
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Ensure text elements are centered */
+  padding: 0px; /* Add some padding */
+  transition: 0.4s ease-in-out;
+  position: relative;
+  margin-top: 20px;
+}
+
+/* Apply hover effect to both .induinfo and .indimg when .induinfo is hovered */
+.induinfo:hover {
+  box-shadow: 1px 1px 15px rgb(123, 123, 123);
+  border: 1px solid #e7880c;
+  transition: 0.4s ease-in-out;
+}
+
+/* Apply hover effect to .indimg when its parent .induinfo is hovered */
+.induinfo:hover .indimg {
+  background-color: white;
+  border: 1px solid #e7880c;
+  transition: 0.4s ease-in-out;
+  color: #e7880c;
+}
+.induinfo:hover .img {
+  color: #e7880c !important;
+}
+
+.indimg {
+  height: 60px;
+  width: 60px;
+  background-color: #e7880c;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease-in-out;
+  margin-top: -10%;
+}
+.img {
+  font-size: xx-large !important;
+  color: white !important;
+}
+
+/* Styling for the heading */
+.induinfo h3 {
+  color: #e7880c;
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  text-align: center; /* Ensure text is centered */
+}
+
+/* Styling for the list */
+.induinfo ul {
+  padding: 0;
+  list-style-position: inside; /* Keep bullets inside */
+  text-align: center; /* Center align list items */
+  margin-top: -0px;
+}
+
+.induinfo ul li {
+  font-size: 14px;
+  color: #000;
+  list-style: square; /* Use square bullets */
+  margin: 2px 0; /* Add spacing between list items */
+  text-align: justify;
+}
+
+.induinfo ul li::marker {
+  color: #e7880c; /* Orange color for bullet points */
+  font-size: 16px; /* Optional: Make bullets slightly larger */
+}
+.imgname {
+  font-size: 16px;
+  font-weight: 600;
+}
+.prodimg{
+    height: 50px;
+}
+/* business section */
+.black-container {
+    background-color: #333;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+}
+
+.business-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.business-container h1 {
+    width: 50%;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    width: 70%;
+  }
+  
+  .container > div {
+    border: 0.5px solid rgb(223, 223, 223);
+    padding: 5px;
+    color: white;
+    text-align: center;
+  }
+  .currency{
+    font-size: 30px !important;
+  }
+  .currtext{
+    font-weight: 400 !important;
+  }
+
+  .busindemobtn{
+    background-color: #e7880c !important;
+    border-radius: 40px !important;
+    padding: 10px 60px !important;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    margin-top: 30px !important;
+    font-family:sans-serif !important;
+    margin-bottom: 30px !important;
+}

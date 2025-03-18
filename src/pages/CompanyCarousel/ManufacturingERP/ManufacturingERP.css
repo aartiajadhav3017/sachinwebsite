@@ -1,0 +1,21 @@
+.carouseltitle {
+    color: #e7880c;
+    font-size: 38px !important;
+
+  }
+  
+  .carouseldesc {
+    font-weight: 600;
+    font-size: 18px;
+    color: black !important;
+    text-align: center !important;
+    margin-top: 0%;
+    width: 50%;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+  }
+  .carouselheading {
+    font-size: 38px !important;
+    font-weight: bolder;
+  }

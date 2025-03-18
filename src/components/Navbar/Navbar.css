@@ -1,0 +1,113 @@
+.navbar-container {
+  padding: 0px 60px 0px 60px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(10px);
+  /* border-radius: 10px; Slightly rounded corners */
+  /* border: 1px solid rgba(255, 255, 255, 0.3); Light border */
+  position: fixed; /* Keeps navbar at top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures navbar is above content */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+.complogo {
+  width: 80px; /* Adjust as needed */
+  height: auto;
+}
+
+.phone-icon {
+  height: 16px !important;
+  margin-top: 5px;
+}
+.phone {
+  font-size: 18px !important;
+  /* margin-top: 5px; */
+}
+.icon-container span {
+  margin-top: 5px;
+  font-size: 18px;
+}
+.demobtn {
+  background-color: #ffa602 !important;
+  border-radius: 20px !important;
+  padding: 7px 20px 7px 20px !important;
+  margin-left: 25px !important;
+  color: rgb(0, 0, 0) !important;
+  /* margin-top: -12px !important; */
+  font-weight: 500 !important;
+}
+.demobtn:hover {
+  background-color: #e99800 !important;
+}
+.phone {
+  display: block;
+}
+.phone-icon {
+  display: block;
+}
+.contactmob {
+  display: none !important;
+}
+.logomob {
+  display: none;
+}
+
+/* Adjust logo size for mobile screens */
+@media (max-width: 600px) {
+  .complogo {
+    width: 60px; /* Smaller size for mobile */
+    margin-left: 30px;
+  }
+  .navbar-container {
+    padding: 0px 0px 0px 0px;
+    background-color: #fff; /* Change to your preferred background */
+  }
+  .phone {
+    display: none;
+  }
+  .phone-icon {
+    display: none !important;
+  }
+ 
+  .contact span {
+    font-weight: 500;
+    margin-left: 5px;
+    font-family: sans-serif;
+  }
+  .logomob {
+    display: block;
+  }
+  .demobtn {
+    margin-right: 25px !important;
+  }
+  /* .whtspmob{
+    display: block;
+    background-color: green;
+    height: 40px;
+  } */
+  .contactmob {
+    display: flex !important; 
+    flex-wrap: nowrap;  /* Prevents items from wrapping */
+    width: 100%; 
+    height: 40px;
+  }
+  
+  .contact, .whtspmob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+  }
+  
+  .contact {
+    background-color: #e99800;
+  }
+  
+  .whtspmob {
+    background-color: green;
+  }
+  
+}

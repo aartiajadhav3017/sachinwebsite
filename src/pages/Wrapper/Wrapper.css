@@ -1,0 +1,168 @@
+.backimg {
+  background-image: url("../../assets/images/bgimg.jpg") !important;
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating */
+  width: 100%;
+  margin-top: 70px;
+  /* height: 75vh; Full screen height */
+}
+
+.transparent-box {
+  background-color: rgba(231, 136, 12, 0.85); /* Use rgba instead of opacity */
+  padding: 30px 60px;
+  /* margin-top: 70px; */
+  /* margin-top: 10%; */
+  position: relative;
+}
+
+.content {
+  margin-top: 20px !important;
+}
+.heading {
+  font-size: 30px !important;
+  font-weight: bold;
+  color: white;
+}
+.subheading {
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+.content h1 {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  line-height: 1;
+}
+.content h3 {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  line-height: 1;
+}
+.title {
+  display: flex;
+  margin-top: 5px;
+}
+.processes {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: -2px;
+  /* font-family: poppins;ś */
+}
+.processes1 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Aligns hello box to the right */
+}
+
+.hello-box {
+  background-color: white !important;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  opacity: 1 !important; /* Ensure it's fully opaque */
+  position: relative !important; /* Ensure it's layered properly */
+  z-index: 1 !important; /* Place it above the background */
+}
+.hello-box h2 {
+  font-family: poppins;
+  margin-top: 0px;
+}
+.input {
+  padding-left: 10px;
+  width: 100%;
+  border: 0.5px solid lightgray;
+}
+.input2 {
+  padding-left: 10px;
+  width: 70%;
+  border: 0.5px solid lightgray;
+}
+.nameimg {
+  height: 40px;
+  width: 40px;
+  background-color: #e7880c;
+}
+.input:focus {
+  border-color: #e7880c; /* Border color changes to red on focus */
+  border-width: 0.5px;
+  outline: none; /* Ensures no black border appears */
+}
+
+.input2:focus {
+  border-color: #e7880c; /* Border color changes to red on focus */
+  border-width: 0.5px;
+  outline: none; /* Ensures no black border appears */
+}
+select:focus {
+  transform: translateY(0);
+}
+.captchainput {
+  padding-left: 10px;
+  width: 50%;
+  border: 0.5px solid lightgray;
+}
+.captchainput:focus {
+  border-color: #e7880c; /* Border color changes to red on focus */
+  border-width: 0.5px;
+  outline: none; /* Ensures no black border appears */
+}
+
+.captchainput2 {
+  width: 35%;
+  border: 0.5px solid lightgray;
+  margin-left: 10px;
+}
+.captchainput2:focus {
+  border-color: #e7880c; /* Border color changes to red on focus */
+  border-width: 0.5px;
+  outline: none; /* Ensures no black border appears */
+}
+.submit {
+  background-color: #ffa602 !important;
+  border-radius: 25px !important;
+  padding: 10px 35px 10px 35px !important;
+  margin-left: 25px !important;
+  color: rgb(0, 0, 0) !important;
+  /* margin-top: -12px !important; */
+  font-weight: 500 !important;
+  margin-top: 15px !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+}
+.submit:hover {
+  background-color: #e99800 !important;
+  color: white !important;
+  font-weight: 500 !important;
+}
+.error-text {
+  color: red;
+  font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  .transparent-box {
+    background-color: rgba(231, 136, 12, 0.85);
+    padding: 0px 30px;
+    /* margin-top: 70px; */
+    /* margin-top: 10%; */
+    position: relative;
+  }
+  .heading {
+    font-size: 19px !important;
+    font-weight: 400;
+    color: white;
+    font-family: "Poppins";
+}
+.content {
+  margin-top: 50px !important;
+}
+}

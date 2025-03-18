@@ -1,0 +1,62 @@
+.backdiv{
+    border: 1px solid #e7880c;
+    background-color: #e7880c;
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+    text-align: center;
+}
+.main-container{
+    background-color: rgb(245, 245, 245);
+    height: auto;
+    padding: 40px;
+}
+.backdiv span, .backdivlight span{
+    font-size: 12px;
+    white-space: nowrap !important;
+}
+.backdivlight{
+    border: 1px solid #fc8f00;
+    background-color: #ffd6a1;
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+    text-align: center;
+}
+.industrial{
+font-size: 38px !important;
+font-weight: bold;
+color: #e7880c;
+}
+.industrial-container{
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+}
+.compdesc{
+ font-weight: 600;
+ font-size: 18px;
+}
+.process{
+    border: 1px dotted lightgray;
+    /* height: 100px; */
+    padding: 10px;
+}
+.process img{
+    height: 60px;
+}
+.process span{
+    font-size: 12px !important;
+    font-weight: bold;
+    margin-top: 5px;
+    line-height: 1.4; /* Adjust as needed */
+    display: block; /* Ensures it takes full width */
+    text-align: center; /* Centers the text */
+    color: #e7880c;
+}
+
+@media (max-width: 768px) {
+.industrial-container{
+    padding: 10px;
+}
+}

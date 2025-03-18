@@ -1,0 +1,77 @@
+.test-container {
+  background-color: rgb(246, 246, 246);
+  /* border: 1px solid black; */
+  justify-content: center;
+  text-align: center;
+  margin-top: 4%;
+  font-size: 19px;
+  padding-top: 2%;
+  padding-bottom: 60px !important;
+}
+
+.testtitle {
+  color: #e7880c;
+}
+
+.erpdesc {
+  font-weight: 600;
+  font-size: 18px;
+  color: black !important;
+  text-align: center !important;
+  margin-top: 0%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.testheading {
+  font-size: 38px !important;
+  font-weight: bolder;
+}
+.testimg1 img {
+  border: 0.5px solid lightgray;
+  border-radius: 30px;
+  align-items: end;
+  width: 90%;
+}
+.descr{
+    width: 80%;
+    text-align:justify;
+    margin-top: 20px;
+}
+.descr p{
+    font-size:medium;
+    margin-top: 10px;
+}
+.descr span{
+    font-weight: 600;
+}
+.comlogo{
+    border: 0.5px solid lightgray;
+    /* height: 90px;
+    width: 90px; */
+    padding: 15px;
+    display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.comlogo img{
+  /* height: 90px; */
+  /* margin-top: 15px; */
+  width: 90px;
+}
+
+/* Increase the size of the dots */
+.slick-dots li button:before {
+  font-size: 16px; /* Adjust the size as needed */
+  color: #333; /* Change the color if needed */
+  margin-top: 20px;
+
+}
+
+/* Highlight the active dot */
+.slick-dots li.slick-active button:before {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #e7880c; /* Change the active dot color */
+}
