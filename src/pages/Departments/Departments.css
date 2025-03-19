@@ -59,4 +59,17 @@ color: #e7880c;
 .industrial-container{
     padding: 10px;
 }
+.industrial {
+    font-size: 27px !important;
+    font-weight: 700;
+    color: #e7880c;
+}
+.compdesc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.industrial-container{
+padding: 20px;
+}
 }

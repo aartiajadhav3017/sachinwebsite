@@ -85,7 +85,7 @@ const Departments = () => {
           container
           spacing={5}
           className="industrial-container"
-          style={{ marginTop: "5px" }}
+          style={{ marginTop: "-20px" }}
         >
           {processItems.map(({ img, label }, index) => (
             <Grid item xs={12} md={1.9} key={index}>
