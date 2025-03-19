@@ -118,7 +118,7 @@ const Wrapper = () => {
             <h3>
               Streamlining your business processes & reducing operational costs
             </h3>
-            <Grid container>
+            <Grid container className="description">
               <Grid item md={6}>
                 {[
                   "ERP for Steel Manufacturing",
@@ -322,7 +322,7 @@ const Wrapper = () => {
 
                 {/* Show Captcha Template Below Input */}
                 <div className="captchainput2">
-                  <LoadCanvasTemplateNoReload
+                  <LoadCanvasTemplateNoReload className="captchaCanvas"
                     style={{ marginTop: "10px", width: "100px" }}
                   />
                 </div>

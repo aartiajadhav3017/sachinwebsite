@@ -1,6 +1,10 @@
 import React from "react";
 import whatsapp from "../../assets/images/wapp-icon.png"
 const Whatsapp = () => {
+// Check if screen width is less than 600px (mobile)
+const isMobile = window.innerWidth <= 600;
+  
+if (isMobile) return null; // Don't render on mobile
 
   return (
     <a
@@ -16,6 +20,7 @@ const Whatsapp = () => {
       justifyContent: "center",
       cursor: "pointer",
       textDecoration: "none",
+      
     }}
   >
       {/* <WhatsAppIcon  /> */}
