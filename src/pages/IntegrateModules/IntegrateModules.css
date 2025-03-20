@@ -160,3 +160,21 @@
     font-family:sans-serif !important;
     margin-bottom: 30px !important;
 }
+
+@media (max-width: 768px) {
+.integrate-modules-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px !important;
+}
+.integrate-modules-container{
+  padding: 10px !important;
+}
+.prodimg {
+  height: 35px;
+}
+.imgname{
+  font-size: 12px;
+}
+}

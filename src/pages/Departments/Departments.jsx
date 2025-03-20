@@ -54,7 +54,7 @@ const Departments = () => {
         className="main-container"
       >
         {departments.map(({ icon: Icon, label, dark }, index) => (
-          <Grid item xs="auto" key={index} style={{ marginTop: "-10px" }}>
+          <Grid item xs={3} md="auto" key={index} style={{ marginTop: "-10px" }}>
             <div className={dark ? "backdiv" : "backdivlight"}>
               <Icon
                 sx={{
